@@ -1,0 +1,29 @@
+.calculator {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 350px; 
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #1a1212;
+    border-radius: 6px; 
+    background-color: #645b5b;
+}
+
+.calculator input {
+    width: 100%;
+    padding: 15px;
+    font-size: 18px;
+    margin-bottom: 10px;
+    border-radius: 5px; 
+}
+
+.calculator button {
+    flex: 22%; 
+    padding: 15px;
+    font-size: 18px;
+    border-radius: 5px;
+    margin: 5px;
+    border: 1px solid #ccc; 
+    cursor: pointer;
+}
+
