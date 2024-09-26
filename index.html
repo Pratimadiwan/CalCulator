@@ -32,6 +32,16 @@
         <button onclick="appendOperator('/')">/</button>
         <button onclick="calculateResult()">=</button>
     </div>
+    <div class="info-link">
+        <a href="#" onclick="openModal()">About this Calculator</a>
+    </div>
+    <div id="calculatorInfoModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <h2>Calculator Information</h2>
+            <p>This calculator is simple and works only for operations between two numbers. It does not follow BODMAS and cannot evaluate complex expressions.</p>
+        </div>
+    </div>
     <script src="script.js"></script>   
 </body>
 </html>

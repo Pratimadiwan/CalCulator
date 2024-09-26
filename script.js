@@ -69,6 +69,25 @@ document.addEventListener('keydown', function(event) {
     }
 });
 
+// Function to open the modal
+function openModal() {
+    document.getElementById('calculatorInfoModal').style.display = 'block';
+}
+
+// Function to close the modal
+function closeModal() {
+    document.getElementById('calculatorInfoModal').style.display = 'none';
+}
+
+// Close the modal if the user clicks anywhere outside the modal content
+window.onclick = function(event) {
+    let modal = document.getElementById('calculatorInfoModal');
+    if (event.target === modal) {
+        modal.style.display = 'none';
+    }
+}
+
+
 
 
 // let result = document.getElementById('result');
