@@ -73,6 +73,7 @@ modal {
 }
 
 .modal-content {
+    
     backdrop-filter: blur(20px);
     background-color: rgba(128, 124, 124, 0.2);
     margin:  15px auto;
